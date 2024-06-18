@@ -1,0 +1,7 @@
+div
+  h1 {period.start} ~ {period.end}
+  ul
+    li(@repeat='items as item')
+			div item.name
+      //- i.ico(@if='item.icon', className='{"ico-" + item.icon}')
+      //- ItemDetail(item='{item}')
